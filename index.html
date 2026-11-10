@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Troop 832 family and Scout resource website.">
+  <meta name="theme-color" content="#123d32">
+  <title>Troop 832 | Scouting America</title>
+  <link rel="stylesheet" href="styles.css?v=6">
+</head>
+<body>
+<header>
+  <div class="top"><span>SCOUTING AMERICA</span><span>Prepared. Responsible. Service-Oriented.</span></div>
+  <div class="navwrap">
+    <a class="brand" href="#home" aria-label="Troop 832 home">
+      <span class="brandMark" aria-hidden="true">832</span>
+      <strong>TROOP 832<small>Scouting America</small></strong>
+    </a>
+    <button id="menu" class="menuButton" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="siteNav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#about">About Us</a><a href="#calendar">Calendar</a><a href="#events">Events</a><a href="#advancement">Advancement</a><a href="#badges">Merit Badges</a><a href="#resources">Resources</a><a href="#announcements">Announcements</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="authBar"><button id="loginBtn" type="button">Log in</button></div>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="mountains" aria-hidden="true"></div>
+    <div class="heroText">
+      <small>SCOUTING AMERICA · TROOP 832</small>
+      <h1>Find your trail.<br><i>Lead with purpose.</i></h1>
+      <p>A place to grow in confidence, skill, and service—together. Welcome to the family resource for Troop 832.</p>
+      <a class="btn" href="#calendar">View the calendar →</a>
+      <a class="btn ghost" href="#about">Discover Troop 832</a>
+    </div>
+  </section>
+
+  <div class="notice" role="status">
+    <span aria-hidden="true">❕</span><b>Weekly troop meeting</b><span id="nextMeetingText">Every Monday · 7:30–8:30 PM · Troop Hall</span><a href="#calendar">See all dates →</a>
+  </div>
+
+  <section class="section intro">
+    <div><small>WELCOME TO THE TROOP</small><h2>Adventure is better<br>when we go together.</h2></div>
+    <div><p>Troop 832 is a Scout-led community built around character, leadership, outdoor adventure, and meaningful service. Whether you are new to Scouting or continuing your journey, there is a place for you here.</p><a href="#about">Meet the troop ↗</a></div>
+  </section>
+
+  <section class="section paper" id="events">
+    <div class="heading"><div><small>WHAT'S AHEAD</small><h2>Upcoming on the trail</h2></div><a href="#calendar">Full calendar ↗</a></div>
+    <div class="cards">
+      <article><b>14<small>SEP</small></b><div><label>TROOP MEETING</label><h3>Troop meeting</h3><p>Troop Hall · 7:30–8:30 PM</p><a href="#calendar">Event details →</a></div></article>
+      <article><b>21<small>SEP</small></b><div><label>TROOP MEETING</label><h3>Troop meeting</h3><p>Troop Hall · 7:30–8:30 PM</p><a href="#calendar">Event details →</a></div></article>
+      <article><b>07<small>SEP</small></b><div><label>HOLIDAY</label><h3>Labor Day</h3><p>No troop meeting · All day</p><a href="#calendar">Event details →</a></div></article>
+    </div>
+  </section>
+
+  <section class="section split" id="about">
+    <div class="emblem">EST.<strong>832</strong><small>ONWARD<br>TOGETHER</small></div>
+    <div><small>WHO WE ARE</small><h2>A Scout-led troop<br>with a family spirit.</h2><p>From weekend campouts to community service, Troop 832 gives young people the space to practice leadership and discover what they are capable of. Adults provide guidance; Scouts take the lead.</p><div class="stats"><b>12+<small>annual outings</small></b><b>7<small>advancement ranks</small></b><b>1<small>strong community</small></b></div><a class="btn dark" href="#contact">Talk with our leaders</a></div>
+  </section>
+
+  <section class="section paper" id="advancement">
+    <div class="heading"><div><small>YOUR JOURNEY</small><h2>Advancement, at a glance</h2></div><a target="_blank" rel="noopener" href="https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/">Official advancement resources ↗</a></div>
+    <div class="ranks">
+      <div class="rank"><span>01</span><b>Scout</b><small>Start here</small></div><div class="rank current"><span>02</span><b>Tenderfoot</b><small>Build your foundation</small></div><div class="rank"><span>03</span><b>Second Class</b><small>Build your skills</small></div><div class="rank"><span>04</span><b>First Class</b><small>Build your skills</small></div><div class="rank"><span>05</span><b>Star</b><small>Grow as a leader</small></div><div class="rank"><span>06</span><b>Life</b><small>Serve and lead</small></div><div class="rank"><span>07</span><b>Eagle Scout</b><small>The highest rank</small></div>
+    </div>
+  </section>
+
+  <section class="section" id="badges">
+    <div class="heading"><div><small>LEARN SOMETHING NEW</small><h2>Merit badges</h2><p>Explore opportunities and connect with a counselor.</p></div><a class="btn outline" target="_blank" rel="noopener" href="https://www.scouting.org/skills/merit-badges/">Official badge library ↗</a></div>
+    <div class="tools"><label class="searchBox"><span class="srOnly">Search merit badges</span><input id="search" placeholder="⌕  Search merit badges" autocomplete="off"></label><div role="group" aria-label="Merit badge categories"><button class="filter active" data-f="all" type="button">All</button><button class="filter" data-f="outdoor" type="button">Outdoor</button><button class="filter" data-f="stem" type="button">STEM</button><button class="filter" data-f="life" type="button">Life skills</button></div></div>
+    <div class="badgeGrid" id="badgeGrid">
+      <article class="badge" data-cat="outdoor"><i>✦</i><h3>Camping</h3><small>Outdoor</small><a target="_blank" rel="noopener" href="https://www.scouting.org/skills/merit-badges/">View official requirements →</a></article>
+      <article class="badge" data-cat="stem"><i>◉</i><h3>Environmental Science</h3><small>STEM</small><a target="_blank" rel="noopener" href="https://www.scouting.org/skills/merit-badges/">View official requirements →</a></article>
+      <article class="badge" data-cat="life"><i>✚</i><h3>First Aid</h3><small>Life skills</small><a target="_blank" rel="noopener" href="https://www.scouting.org/skills/merit-badges/">View official requirements →</a></article>
+      <article class="badge" data-cat="outdoor"><i>△</i><h3>Hiking</h3><small>Outdoor</small><a target="_blank" rel="noopener" href="https://www.scouting.org/skills/merit-badges/">View official requirements →</a></article>
+    </div>
+    <p id="noBadges" class="emptyState" hidden>No merit badges match your search.</p>
+  </section>
+
+  <section class="section dark" id="announcements">
+    <div><small>KEEP IN THE LOOP</small><h2>What families<br>need to know.</h2><p>Announcements, meeting reminders, schedule changes, and other troop news—all in one place.</p></div>
+    <div class="announce"><article><small>SEP 15, 2026</small><h3>Fall campout registration is open</h3><p>Reserve your spot by September 25. Packing list and permission forms are in Resources.</p></article><article><small>SEP 08, 2026</small><h3>Welcome, new families</h3><p>Join us before Tuesday's meeting for a brief orientation and Q&amp;A.</p></article></div>
+  </section>
+
+  <section class="section paper" id="calendar">
+    <div class="heading"><div><small>PLAN AHEAD</small><h2>Troop calendar</h2></div><button class="btn outline" id="addCalendar" type="button">＋ Add selected event to calendar</button></div>
+    <div class="calendar" aria-label="Troop calendar">
+      <div class="calendarHeader"><button id="prevMonth" type="button" aria-label="Previous month">←</button><h3 id="calendarTitle">September 2026</h3><button id="nextMonth" type="button" aria-label="Next month">→</button></div>
+      <div class="week"><small>Sun</small><small>Mon</small><small>Tue</small><small>Wed</small><small>Thu</small><small>Fri</small><small>Sat</small></div>
+      <div class="days" id="calendarDays"></div>
+    </div>
+    <p class="calendarNote">The calendar shows weekly Monday meetings, holidays, and special days.</p>
+  </section>
+
+  <section class="section" id="resources">
+    <div class="heading"><div><small>FAMILY TOOLKIT</small><h2>Resources for the journey</h2></div></div>
+    <div class="resources">
+      <a target="_blank" rel="noopener" href="https://www.scouting.org/resources/forms/"><i>⌁</i><b>Permission forms</b><small>Official Scouting forms →</small></a>
+      <a target="_blank" rel="noopener" href="https://www.scouting.org/programs/scouts-bsa/troop-resources/"><i>▱</i><b>Camping &amp; troop resources</b><small>Program resources →</small></a>
+      <a target="_blank" rel="noopener" href="https://www.scouting.org/resources/guide-to-advancement/"><i>◌</i><b>Advancement guide</b><small>Official guide →</small></a>
+      <a target="_blank" rel="noopener" href="https://www.scouting.org/"><i>↗</i><b>Scouting America</b><small>Visit the official site →</small></a>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div><a class="brand footerBrand" href="#home"><span class="brandMark" aria-hidden="true">832</span><strong>TROOP 832<small>Scouting America</small></strong></a><p>Prepared. Responsible. Service-Oriented.</p></div>
+  <div><h3>Contact Troop 832</h3><p>For general questions, new family visits, or troop leadership inquiries:</p><a href="mailto:info@troop832.org">info@troop832.org ↗</a><p class="footerNote">Replace this demo address with the troop's official contact before launch.</p></div>
+  <div><h3>Quick links</h3><a href="#calendar">Calendar</a><a href="#advancement">Advancement</a><a href="#resources">Resources</a></div>
+</footer>
+
+<div id="loginModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+  <div class="modalCard"><button class="close" id="closeModal" type="button" aria-label="Close login">×</button><small>SECURE TROOP PORTAL</small><h2 id="loginTitle">Log in to Troop 832</h2><p>Sign in to access the troop portal.</p><label>Email<input id="email" type="email" placeholder="you@example.com" autocomplete="email"></label><label>Password<input id="password" type="password" placeholder="••••••••" autocomplete="current-password"></label><button class="btn dark" id="signIn" type="button">Sign in</button><button class="btn outline" id="showCreateAccount" type="button">Create an account</button><div id="createAccountPanel" hidden><hr><small>SPL / ASPL ACCOUNT CREATION</small><p>Only a signed-in SPL or ASPL can create accounts.</p><label>New account email<input id="newAccountEmail" type="email" placeholder="new-scout@example.com" autocomplete="off"></label><label>Temporary password<input id="newAccountPassword" type="password" placeholder="Create a temporary password" autocomplete="new-password"></label><label>Account role<select id="newAccountRole"><option value="scout">Scout</option><option value="aspl">ASPL</option><option value="spl">SPL</option></select></label><button class="btn dark" id="createAccount" type="button">Create account</button></div><p id="authMessage" class="demoNote" role="status"></p></div>
+</div>
+
+<div id="eventDetailsModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="eventDetailsTitle">
+  <div class="modalCard"><button class="close" id="closeEventDetails" type="button" aria-label="Close event details">×</button><small>CALENDAR EVENT</small><h2 id="eventDetailsTitle"></h2><p id="eventDetailsDate"></p><p><b>Time:</b> <span id="eventDetailsTime"></span><br><b>Location:</b> <span id="eventDetailsLocation"></span></p><p id="eventDetailsDescription"></p></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="app.js?v=7"></script>
+</body>
+</html>
